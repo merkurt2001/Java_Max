@@ -1,0 +1,108 @@
+09/04/2021
+week 14 review topics: 
+			OOP Inheritance
+			Overriding
+
+
+OOP inheritance: building Is A relationships between classes (super/sub relation)
+				
+				child: inherits all the visible variables and methods of the parent class
+
+								Constructor of parent class cannot be inherited (but the child class MUST call parent' constructor)
+
+				parent: CAN NOT inherit any from child class
+
+
+ method overriding: giving different implementations to the method
+
+ 				only the instance method can be overriden (cannot be private, final)
+
+ 				Access modifier need to be same or more visible
+
+
+Has A  vs Is A
+
+	class Person{
+		name, gender, dateOfBirth, studentId
+		eat(), drink(), sleep()
+
+		public Person(){
+
+		}
+
+	}
+
+	class Student extends Person{ // Student Is A person
+		
+	}
+
+	class Teacher extends Person{
+
+	}
+
+	class Cybertek{ // Cybertek Has A Student
+		Student;
+	}
+
+
+
+EmployeeTask:
+	Employee:
+		name, gender, age, jobTitle, salary
+		work()
+
+	Tester extends Employee
+		work(): testing
+
+	Developer extends Employee
+		work(): coding
+
+	Teacher extends Employee
+		work(): teaching
+
+	Driver extends Employee
+		work(): driving
+
+
+ShapeTask:
+	
+	Shape:
+		name (private & final)
+		getter/setter
+		Constructor to set the field
+		area()
+		perimeter()
+		toString()
+
+	Circle
+		area(): r*PI
+		perimeter(): 2*r*PI
+
+	Square
+		area(): s*s
+		perimeter(): 4*s
+
+	Rectangle
+		area(): l*w
+		perimeter(): 2*(l+w)
+
+	....
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

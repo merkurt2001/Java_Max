@@ -1,0 +1,69 @@
+07/31/2021
+Java Week 9 review
+Topics: String
+
+
+class: where the objects are came from
+
+objects: instance of the class
+
+Car:
+	new Car()
+
+Dog:
+	new Dog()
+
+
+String: 
+	1. object
+			literal:
+				String str = "Cybertek";
+
+				String pool: special memory location for all string literals
+
+
+			new keyword:
+				String str = new String("Cybertek");
+
+
+	2. immutable: not changable, can not be modified
+
+
+	3. sequence of the charcters: each character has representive number called index number
+
+			index number: starts from 0
+
+				"Java"
+				 0123
+
+String Methods: length(), charAt(), equals(), equalIgnorecase(), trim(), contains(), startsWith(), endsWith(), substring(), isEmpty(), +, replace(), replaceFirst(), indexOf(), lastIndexOf(), toLower/Upper()
+
+
+
+Garbage collection: collection of garbage objects (unreferenced objects)
+
+	unreferenced objects
+		1. re-assigning
+				String str ="Java";
+					   str = "Python";
+
+
+	    2. assigning null
+	    		String str = "Java";
+	    		str = null;
+
+
+null: does not reference to any object
+
+
+Garbage Collector: responsible for collecting the objects from the heap that are eligible for garbage collection. and destroying it
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,91 @@
+10/2/2021
+Review topics:
+			1. OOP Polymorphism
+			2. Reference-type castings
+
+package name: week17
+
+Polymorphism: behaviors of the objects in different/many forms (IS A relationship is required)
+
+			parent being able referenced to child objects
+
+			reference type decides what can be accessible
+			Object type decides which implementation gets executed
+
+
+
+			Animal animal = new Dog();
+							new Cat();
+							new Eagle();
+
+		with polymorphism:
+			WebDriverFactory:
+				WebDriver  getDriver(){
+					
+				}
+
+		without polymorphism:
+			WebDriverFactory:
+				chromerDriver getChromerDriver(){
+						
+					}
+
+				FireFoxDriver getFireFoxDriver(){
+						
+					}
+
+				....
+
+
+
+2 types of castings
+	1. Primitive-type castings:
+
+			implicit casting: casting the smaller primitive type to larger primitive type (automatically done)
+
+						double d = 10;
+
+			explicit casting:  casting the larger primitive type to smaller primitive type (manually done)
+
+					double d = 2.5;
+
+					short s = (short) d;
+
+
+	2. Reference-type castings: IS A relation ship is required
+
+			up-casting: casting the smaller reference-type to larger reference type (automatically done)
+
+				WebDriver driver = new ChromerDriver(); // upcasting
+				WebDriver driver = (WebDriver)  new ChromerDriver();
+
+				Shape shape = new Circle(3); // upcasting
+				Shape shape = (Shape) new Circle(3);
+
+
+			down-casting: casting the larger reference-type to smaller reference type (manually done)
+
+					we need the dawn casting only if we need to call a method or variable that's in the object type but not in the reference type
+
+					Animal animal = new Dog();
+					// animal.bark(); // referenceType Animal does not have bark()
+
+					 ( (Dog)animal ).bark() // downcasting
+
+
+			 WebDriver driver = new ChromeDriver();
+
+			 (	(ChromerDriver)driver ).takeScreenSHot()
+			  (	(ChromerDriver)driver ).executeScript();
+
+			  ---------------------------------------------------
+
+			  WebDriver driver;
+
+			 ( (TakeScreenShot)driver ).takeScreenShot()
+			 (  (JavaScriptExecuter)driver ).executeScript()
+
+
+
+
+

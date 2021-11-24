@@ -1,0 +1,68 @@
+10/09/2021
+Review Topics: OOP Summary
+			   Exceptions Hnadlings
+
+
+Package name: week18
+
+
+OOP: Object Oreinted Programming
+	A design pattern of the applications in an organized and modular way
+
+	increases reusability
+	less codes
+	less memoryy usage
+	clear structure
+	Flexiblity
+	easy to maintain
+
+
+	Encapsulation: data hiding
+
+	Inheritance: building IS A relationships between classes
+
+	Abstraction: hiding the implementations/details of the method
+
+	Polymorphism: objects taking on many forms
+
+		WebDriver  driver = new FireFoxDriver();
+						    new ChromeDriver();
+						    ...
+
+Exception: unexpected or unwanted event
+
+	unchecked (unexpected): runtime exceptions
+	
+	checked (unwanted event): compile time exceptions
+
+
+Exception Handlings: 
+
+	1. try & catch blocks: can handle both checked and unchecked exceptions
+
+			try{
+				exception code
+			}catch(ExceptionType e){
+				e.printStackTrace(); // gives the details of the exceptions without causing impacrt to the execution result
+			}finally{
+				statements 
+			}
+
+			how to stop finally block from being executed?
+					System.exit(0);
+
+
+	2. throws keyword: can ONLY handle checked exception
+
+					the caller of the method will be responsible for the exception
+
+throw: used for manually throws an exception
+	
+
+
+
+
+
+
+
+

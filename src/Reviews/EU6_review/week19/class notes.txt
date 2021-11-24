@@ -1,0 +1,82 @@
+10/16/2021
+Review topics: Collection
+			   Map
+
+package name: week19
+
+Collection (I): dynamic sized
+				ONLY supports non-primitives
+
+		List (I): duplicates are allowed, has index numbers
+
+			ArrayList (C): Array based class, internally uses array
+								retrieving the element is faster ( get() )
+
+			LinkedList (C): Each objects are doublly linked
+							removing and adding are faster
+
+			Vector (C): Synchronized, thread-safe
+
+			Stack (C): Synchronized, thread-safe, LIFO
+
+
+		Set (I): duplicates are NOT allowed, does not have index number
+
+			HashSet (C): order is random, faster
+
+			LinkedHashSet (C): insertion order
+
+			TreeSet (C): sortedin ascending order, does not accept null
+
+
+		Queue (I): duplicates are allowed, does not have index number. FIFO
+
+			PriotirtQueue (C): order is random
+
+			ArrayDequeue (C): insertion order
+	
+
+
+Synchronized: used for achriving thread safety
+
+thread safety: one thread at a time
+
+
+thread: a sequence of execution within the prociess
+
+process: execution instance of a program
+
+
+concureently executing: one process with multiple threads
+		
+		one chrome browser: 1000 test cases * 3 sec = 3000 secondas
+			tab1 (thread1): amazon.com (500 test cases)
+			tab2 (thread2): ebay.com (500 test cases)
+
+
+paralelly executig: multiple processes with multiple threads
+		
+		chrome browser: (process 1)   1500 sec
+			amazon.com (500 test cases)
+
+		firefox browser: (process 2)  1500 sec
+			ebay.com (500 test cases)
+
+
+		total time: 1500 sec
+
+
+Map (I): pair of data, key & value format. key can not be duplicated
+		does not support primitives
+
+	HashMap (C): accept null key, faster, order is random
+
+	LinkedHashMap (C): accept null key. keeps the insertion order
+
+	TreeMap (C): does not accept null key, sorted order
+
+	HashTable (C): does not accept null key, order is random. Synchronized
+
+
+
+

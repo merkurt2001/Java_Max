@@ -1,0 +1,164 @@
+09/25/2021
+Review Topic: OOP Abstraction
+					1. Abstract method
+					2. Abstract class 
+					3. Interface
+
+Package name: week16
+
+
+OOP Abstraction: focusing on essentials without worrying about the small details of the method
+				only focus on what it is, instead of how it's done
+
+				Abstract method: a method without the body
+								 a method that's meant to be overriden (cannot be final, private, static)
+
+
+			   2 ways:
+			   		1. abstract class: meant to be the parent class ( cannot be final)
+			   							cannot create object from it. not concrete
+
+			   							a class can extend one abstract class
+
+			   		2. interface (not a class): meant to be implemented ( cannot be final)
+			   								    blueprint of a class, specifies the additional behaviors/methods that the class needs to implement
+
+			   								    a class can inherit from multiple interfaces
+
+			   								    cannot have:
+			   								    	Access modifiers: private, default, protected
+			   								    	Constructor
+			   								    	instance variables & methods
+			   								    	blocks
+
+		   								    	Can have:
+		   								    		Access Modifier: public 
+		   								    		Variables: final & static
+		   								    		methods: abstract methods, default, static
+
+
+ShapeTask
+	interface Volume
+			volume();
+
+
+	abstract Shape
+		area();
+		perimeter();
+
+
+	Circle extends Shape
+
+
+	Rectangle extends Shape
+
+
+	Square extends Shape
+
+
+	Cylinder extends Shape implements Volume
+
+
+	Cube extends Shape implements Volume
+
+
+
+AnimalTask
+	interface Flyable
+			fly();
+
+	interface Swimmable
+			swim();
+
+	interface WildAnimal
+			hunt();
+
+   interface Plyable
+   			play();
+
+	abstract Animal:
+		breed, gender, size..
+		eat();
+
+
+	Dog extends Animal implements Plyable
+
+	Cat extends Animal implements Plyable
+
+	Lion extends Animal implements WildAnimal
+
+	Tiger extends Animal implements WildAnimal
+
+	Eagle extends Animal implements WildAnimal, Flyable
+
+	Parrot extends Animal implements Plyable, Flyable
+
+	Shark extends Animal implements WildAnimal, Swimmable
+
+	Dolphin extends Animal implements Plyable, WildAnimal, Swimmable
+
+	Duck extends Animal implements Plyable, Swimmable, Flyable
+
+
+
+
+AirPlanePlane implements Flyable
+
+Rocket implements Flyable
+
+UFO implements Flyable
+
+Boat implements Swimmable
+
+Ship implements Swimmable
+
+
+
+
+
+CarTask:
+	interface AutoPilot
+		selfDrive();
+
+	interface ElectricCar
+		charging();
+
+	interface LuxuryCar
+		seatCooler();
+		seatHeater();
+		selfPark();
+
+	abstract Car
+		make, model, color....
+		start();
+	
+	Toyota extenbds Car
+
+	Honda extenbds Car
+
+	Mercedes extenbds Car implemnts LuxuryCar
+
+	BMW extenbds Car implemnts LuxuryCar
+
+	Tesla extenbds Car implemnts LuxuryCar, ElectricCar, AutoPilot
+
+	Nio extenbds Car implemnts LuxuryCar, ElectricCar
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

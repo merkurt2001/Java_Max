@@ -1,0 +1,136 @@
+08/06/2021
+Review topics:  
+				Arrays
+				for each loop
+				Arrays Utility
+				Multi-dimentional arrays
+
+variable:
+	DataType  variable = Data;
+	int a= 10;
+		a = 20;
+
+Data Structure: to use the data effeciently, and store them in an organized manner
+
+	3 data structures:
+			1. Array (fixed size)
+			2. Collection
+			3. Map
+
+
+
+Array variable: avariable that can have multiple data. supports both perimitives & non primitives. retrieving data is faster
+	DataType[]  variable = { data1, data2, data3};
+							  0       1      2
+
+			  	variable[index]
+
+
+
+String class:
+	split()
+	toCharArray()
+
+Arrays Utility class:
+		toString(): to print single dimensional array
+		deepToString(): to print multi dimensional array
+		sort()
+		equal()
+
+
+
+Anagram:
+
+	str1 = "Java"
+	str2 = "Python"
+
+	output:
+		false
+
+
+for loop:
+	starting from index 0 to last index
+
+		for(int i = 0;  i< arr.length; i++){
+
+		}
+
+	starting from last index to index 0
+
+		for(int i = arr.length-1; i >= 0; i--){
+
+		}
+
+
+for each loop: loop that's already have been iterated. does not have access to the index
+					
+					iteration order is fixed ( 0 ~ last index)
+
+					pre-condition: there MUST be a data structure
+
+
+					for(DataType  variable :  Collection Of Data){ // variable: represents each elements
+
+					}
+
+					number of execution of for each loop depends on the size of the data structure
+
+
+
+come back at 2:15 pm
+
+Task:
+	write a program that can find the average number from an array of Integers
+			
+			Note: MUST use for each loop
+
+
+
+
+
+Single Dimensional Array: meant to contain elements
+		
+		DataType[] variable = {Data1, Data2}
+		int[] nums = {1,2,3,4,5...}
+			[index of Elements]
+
+Multi Diemsional Array: 2D, 3D, 4D, 5D, .... nD
+					 	meant to contain array
+
+		 		10                             9
+			 	N dimensional array contains (N-1) dimensional arrays
+
+			 	2 dimensional array: MUST contains 1 dimensional arrays
+
+			 				[index of 1D Array][index of Elements]
+
+			 			{1,2,3,4}
+			 			{5,6}
+			 			{7,8,9}
+
+			 			//				   0 1 2 3     0 1     0 1 2	
+			 			int[][] arr2D = { {1,2,3,4} , {5,6},  {7,8,9} };
+			 					//			 0           1        2
+
+						// getting 1D array {5,6}
+							arr2D[1] ==> {5,6}
+						
+
+						// getting teh element 8
+						arr2D[2][1]
+
+
+				3 dimensional array: MUST cintains 2 dimensional arrays
+
+							[index of 2D arr][index of 1D arr][index of element]
+
+
+				4 dimensional array: MUST contains 3 dimensional array
+
+							[index of 3D arr][index of 2D arr][index of 1D arr][index of elements]
+
+
+
+
+
+

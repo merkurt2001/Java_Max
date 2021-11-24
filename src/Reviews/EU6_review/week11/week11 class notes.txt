@@ -1,0 +1,102 @@
+08/14/2021
+Topics: Wrapper Class
+		Custom Array Utility Class
+		Custom String Utility Class
+
+package name: week11
+
+so far: String, loops, methods, Arrays..
+
+3 data structure:
+		Array (primitives & non-primitive)
+		Collection (non-primitive ONLY)
+		Map (non-primitive ONLY)
+
+
+Array: fixed size
+	   supports primitives & non-primitive
+	   ordered (index)
+	   can be mult-dimensional
+
+
+	single dimensional array: to store elements
+			arr1D = {1,2,3}
+					{4,5,6}
+					{7,8}
+
+	multi-dimensional array: to store arrays
+
+			N dimensional array contains (N-1) dimensional array
+
+			2D array: contains 1D array
+				arr2D =	{{1,2,3}, {4,5,6}, {7,8}}
+						{{10,20,30}, {40,50,60}, {9, 10, 70,80}}
+
+				[index of 1D array][index of element]
+
+			3D array: contains 2D array
+				  arr3D = { {{1,2,3}, {4,5,6}, {7,8}} ,  {{10,20,30}, {40,50,60}, {9, 10, 70,80}}  };
+
+				  [index of 2D array][index of 1D array][index of Element]
+
+
+Wrapper Class: 	each primitive has a class (object) that's dedicated to it
+				
+				Byte, Short, Integer, Long, Float, Double, Character, Boolean	  
+				byte, short, int,     long, float, double, char,      boolean
+
+				autoBoxing: primitive to wrapper class
+				unboxing: wrapper class to primitives
+
+				parse methods: String to primitive
+				valueOf methods: String to Wrapper class
+
+
+{1,2,3}
+{1,2,3,4}
+
+
+{10, 20, 30, 40, 50}   index 2
+{10, 20, 40, 50}
+
+
+methods: function
+	
+	Access-Modifier  Specifiers  returnType  methodName(Parameter){
+
+	}
+
+	Access-Modifier: public
+	Specifier: static
+				static: can be called through the class name
+
+	returnType: void, any data
+			void: does not return any data
+			return method: if we want to return a data/value from the method
+
+
+	Parameter: an info tahts required for the method to achieve it's function
+
+
+
+
+Arrays:
+	toString()
+	deepToString()
+	equals()
+	sort()
+
+ArraysUtilty:
+		max()
+		min()
+		merge()
+		contains()
+		add()
+		remove()	
+
+
+
+
+
+
+

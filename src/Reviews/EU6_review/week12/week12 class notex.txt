@@ -1,0 +1,101 @@
+08/21/2021
+Week12 Review Topics:
+			Constructors
+			ArrayList
+			ArrayList vs Array
+			Collections Utility
+
+
+methods: to create a function
+	
+	syntax:
+		Access-Modifier  Specifier  returnType  methodName(parameter){
+				statements;
+		}
+
+		Access Modifier: public
+							public: always accessible
+
+		Specifier: static
+							static: can be called through class name
+
+		returnType: void/any datatype
+				void: does not return any data 
+				dataType: MUSt return a data
+
+		Parameter: any DataType
+
+
+
+Constructor: special method. used for instantiate/create an object
+			
+			execution of the constructor ALWAYS depends on the object (we can use it to set instances)
+
+			Every class MUST have
+
+		syntax:
+			Access-Modifier  ClassName(Parameter){
+					statemnts;
+			}
+
+
+
+object: instances need to be called through the object
+	syntax:
+		new ExistingConstructor
+
+instance (multiple copies): each object has its own copy
+
+static (one copy): all the objects they have the smae copy
+
+this: refers to the object instances
+	this.: used for calling instance variable & instance methods
+
+			we use it call the instance variable if a local variable having the same name as instance variable
+
+	this(): used for calling the constructor
+
+
+Dog:
+	Attributes (instance variables):
+		name, breed, age, gender
+
+	Action (instance methods):
+		eat(), drink(), sleep(), bark()
+
+
+3 data structures:
+		1. Array: supports primitves & non-primitives. fixed size
+		2. Collection: ONLY supports non-primitives. dynamic size
+		3. Map: pairs of Data, ONLY supports non-primitives. dynamic size
+
+
+
+ArrayList: Part of Collection. internally uses array. 
+			has index numbers
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

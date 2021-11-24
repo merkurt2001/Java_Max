@@ -1,0 +1,83 @@
+08/28/2021
+Week13 Review Topics:
+			OOP Encapsulation: private, getter/setter
+			Static members: static variables, static methods, static blocks
+
+
+OOP: object oreinted programming
+
+		4 concepts:
+				1. Encapsulation
+				2. Inheritance
+				3. Abstraction
+				4. Polymorphism
+
+
+
+Encapsulation: data hiding
+			1. hiding the data by giving private access modifier
+
+					private: only visible within the class
+
+			2. generate public getter/setter to read/write the data
+
+						getter(read only): public instance method ( return)
+
+
+						setter(write ONLY): public instance method (void)
+
+
+using the data:
+		1. read
+		2. write
+
+
+
+instance (multiple copies): belongs to the object, can be called through object
+		
+		each object has its own copy of instance
+
+
+Static (one copy ONLY): belong to the class, can be called through the class name
+				
+				all the objects have the same copy 
+
+
+
+
+
+class Employee{
+	name, jobtitle, salary
+}
+
+	employee1: john, "SDET", 100000
+	employee2: Daniel, Developer, 120000
+
+
+
+class Circle{
+	r
+	PI = 3.14
+}
+
+
+class Iphone{
+	instance: model, color, price
+	static: brand, operatingSystem, isTouchScreen
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

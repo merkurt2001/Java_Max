@@ -1,0 +1,65 @@
+09/18/2021
+Review Topics: Inheritance
+			   final keyword
+
+
+package name: week15
+
+OOP:
+	1. Encapsulation
+	2. Inheritance
+	3. Abstraction
+	4. Polymorphism
+
+
+ShapeTask
+
+	Shape
+		Attribute:
+			name
+
+		Actions/methods:
+			area(), perimeter(), toString()
+	
+	Circle
+		Attributes:
+			r, pi
+
+		ACTION:
+			area(): r * r * PI
+			perimeter(), toString()
+
+
+	Rectangle
+		Attributes:
+			w, l
+
+		ACTION:
+			area(): w * l
+			perimeter(), toString()
+
+	Square
+		Attributes:
+			s
+
+		ACTION:
+			area(): s * s
+			perimeter(), toString()
+
+
+
+
+final: unchangable
+	
+	variables: can not be reassigned
+
+	methods: can not be overriden
+
+	classes: can not be inherited (can not be parent)
+
+
+
+
+
+
+
