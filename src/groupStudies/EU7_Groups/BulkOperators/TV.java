@@ -1,4 +1,4 @@
-package groupStudies.EU7_Groups.package8;
+package groupStudies.EU7_Groups.BulkOperators;
 
 import java.util.ArrayList;
 

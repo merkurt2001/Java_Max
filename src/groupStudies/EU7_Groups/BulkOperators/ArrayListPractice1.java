@@ -1,4 +1,4 @@
-package groupStudies.EU7_Groups.package8;
+package groupStudies.EU7_Groups.BulkOperators;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -21,19 +21,15 @@ public class ArrayListPractice1 {
 //
 //        System.out.println(wordList);
 
-        wordList.removeIf(each -> each.equals(targetWord));
-        System.out.println(wordList);
+
 
         wordList.removeAll(Arrays.asList("Yo"));
 
         System.out.println(wordList);
 
-        wordList.addAll(Arrays.asList("Hi", "Hi", "Hello"));
-
+        wordList.removeIf(each -> each.equals(targetWord));
         System.out.println(wordList);
 
-        wordList.retainAll(Arrays.asList("Hi"));
-        System.out.println(wordList);
 
     }
 }
