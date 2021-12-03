@@ -1,0 +1,33 @@
+Up-Skill Training topics:
+		1. Functional Interface & Lambda
+		2. Custom Functional Interface
+		3. Build-in Functional interfaces: 
+					Predicate
+					Supplier
+					Consumer
+					Function
+
+					BiPredicate
+					BiConsumer
+					BiFunction
+
+		4. Stream 
+		5. Methods of String:
+						map()
+						filter()
+						sorted()
+						collect()
+						skip(5)
+						distinct()
+						limit(5)
+						reduce()
+						allMatch
+						anyMatch
+
+						Intermediate Operators:
+						    map
+						    filter
+						    sorted
+						    collect
+
+

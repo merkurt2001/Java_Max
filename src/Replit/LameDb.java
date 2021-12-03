@@ -7,7 +7,7 @@ public class LameDb {
 
 		System.out.print(lameDb("1tst#2bla#3foo", "delete", "3", "") + "\n");
 
-		System.out.print(lameDb("1tst#2bla#3foo", "none", "1", "") + "\n");
+		System.out.print(lameDb("1tst#2bla#3foo","delete","1",""));
 
 	}
 
