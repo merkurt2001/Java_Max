@@ -18,7 +18,7 @@ public class removeIf {
         System.out.println(color_list);
 
         // Remove all White colors from color_list
-        color_list.removeIf(each -> each.equals("White"));
+        color_list.removeIf(apple -> apple.equals("White"));
 
         System.out.println("Color list, after removing White colors :");
         System.out.println(color_list);

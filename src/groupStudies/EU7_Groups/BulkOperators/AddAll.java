@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class AddAll {
     public static void main(String[] args) {
         // create an empty array list with an initial capacity
-        ArrayList<String> color_list = new ArrayList<String>(4);
+        ArrayList<String> color_list = new ArrayList<>();
 
         // use add() method to add values in the list
         color_list.add("White");

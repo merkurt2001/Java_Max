@@ -25,7 +25,7 @@ public class replaceAll {
         System.out.println(color_list);
 
         // Replace all colors with White color
-        Collections.replaceAll(color_list, "black", "White");
+        Collections.replaceAll(color_list, "Black", "White");
 
         System.out.println("Color list, after replacing all Black with White color :");
         System.out.println(color_list);

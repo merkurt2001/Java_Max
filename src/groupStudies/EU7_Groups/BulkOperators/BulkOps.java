@@ -40,7 +40,8 @@ public class BulkOps {
 
         for(int i=0; i < nums.size(); i++) {
             if(nums.get(i)< 5) {
-                nums.remove(i); //DO NOT use the remove method of arraylist in the loop
+                nums.remove(i);
+                i--;//DO NOT use the remove method of arraylist in the loop
             }
         }
 
