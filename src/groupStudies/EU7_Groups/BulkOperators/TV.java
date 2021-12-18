@@ -2,13 +2,15 @@ package groupStudies.EU7_Groups.BulkOperators;
 
 import java.util.ArrayList;
 
-public class TV {
+public class TV  {
 
     int channel = 1;
     int volumeLevel = 0;
     boolean on = false;
     String brand = "undefined";
     ArrayList<String> channelList;
+
+
 
 
     public TV() {

@@ -1,6 +1,10 @@
 package groupStudies.EU7_Groups.StaticKeyWord;
 
 public class StaticTest {
+    int p;
+    private int q;
+    protected int r;
+    public int s;
     public static void main(String[] args) {
 
         StaticGeneral obj1 = new StaticGeneral();
