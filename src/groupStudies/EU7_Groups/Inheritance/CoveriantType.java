@@ -28,7 +28,5 @@ public class CoveriantType {
         System.out.println(obj.display());
 
 
-
-
     }
 }

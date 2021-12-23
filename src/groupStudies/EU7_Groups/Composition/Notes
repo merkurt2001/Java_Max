@@ -1,15 +1,17 @@
 /*The composition is a design technique in java to implement a has-a relationship.
 
-Java Inheritance is used for code reuse purposes and the same we can do by using
- composition. The composition is achieved by using an instance variable that refers
+----Java Inheritance is used for code reuse purposes and the same we can do by using
+ composition.
+
+ ---The composition is achieved by using an instance variable that refers
 to other objects. If an object contains the other object and the contained object
 cannot exist without the existence of that object, then it is called composition.
 
-In more specific words composition is a way of describing reference between two or
- more classes using instance variable and an instance should be created before it is used.
+---In more specific words composition is a way of describing reference between two or
+more classes using instance variable and an instance should be created before it is used.
 
-Java doesn’t support multiple inheritances but by using composition we can achieve it.
- In composition, both entities are dependent on each other.
+---Java doesn’t support multiple inheritances but by using composition we can achieve it.
+In composition, both entities are dependent on each other.
 
 When there is a composition between two entities, the composed object cannot exist without
 the other entity. For example, A library can have no. of books on the same or different subjects.
