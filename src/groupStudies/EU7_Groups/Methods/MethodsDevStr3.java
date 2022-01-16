@@ -1,4 +1,4 @@
-package groupStudies.EU7_Groups.package5;
+package groupStudies.EU7_Groups.Methods;
 
 public class MethodsDevStr3 {
 	/*

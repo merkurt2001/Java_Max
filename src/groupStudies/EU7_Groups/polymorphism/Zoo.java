@@ -1,4 +1,4 @@
-package groupStudies.EU6_Groups.polymorphism;
+package groupStudies.EU7_Groups.polymorphism;
 
 public class Zoo {
 

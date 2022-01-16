@@ -1,4 +1,4 @@
-package groupStudies.EU7_Groups.package6;
+package groupStudies.EU7_Groups.Strings;
 
 import java.text.DecimalFormat;
 import java.util.Locale;

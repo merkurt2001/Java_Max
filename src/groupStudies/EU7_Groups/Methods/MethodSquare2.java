@@ -1,32 +1,34 @@
-package groupStudies.EU7_Groups.package5;
+package groupStudies.EU7_Groups.Methods;
 
-public class MethodBox {
+public class MethodSquare2 {
 
 	public static void main(String[] args) {
-
-		System.out.println(drawBox(3) + " boxes produced");
+		
+		System.out.println(draw(3)+ " times produced");
+		
 
 	}
 
-	public static int drawBox(int num) {
-		for (int i = 0; i < num; i++) {
+	public static int draw(int i) {
+		for (int j = 0; j < i; j++) {
 			System.out.println("+-----+");
 			System.out.println("|     |");
 			System.out.println("|     |");
 			System.out.println("|     |");
 			System.out.println("+-----+");
 			System.out.println();
+			
 		}
-		return num;
-
+		return i;
 	}
 
-	public static void drawBox() {
+	public static void draw() {
 		System.out.println("+-----+");
 		System.out.println("|     |");
 		System.out.println("|     |");
 		System.out.println("|     |");
 		System.out.println("+-----+");
-
+		
 	}
+
 }
