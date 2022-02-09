@@ -51,8 +51,6 @@ public class ShippingCalculator {
 	    	 System.out.println("SYSTEM CRASH!! YOU CAN ONLY SAY yes or no!!!!!");
 	     }
 	     
-	     
-		 
 
 	}
 
