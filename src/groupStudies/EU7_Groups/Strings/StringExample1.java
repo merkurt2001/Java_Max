@@ -8,33 +8,33 @@ public class StringExample1 {
 
 	public static void main(String[] args) {
 
-		String s1 = "Java";
-		String st1 = "Java";
-		String s2 = new String("Java");
-		String s3 = new String("Java");
+		String str1 = "Java";
+		String str2 = "Java";
+		String str3 = new String("Java");
+		String str4 = new String("Java");
 
 		String s4 = "java";
 
-		System.out.println(s1 == s2); //false, different memory locatin
+		System.out.println(str1 == str3); //false, different memory locatin
 		
-		System.out.println(s1==st1); //true
+		System.out.println(str1==str2); //true
 		
-		System.out.println(s1.equals(s2)); //true, different obj, same visible text
+		System.out.println(str1.equals(str3)); //true, different obj, same visible text
 
-		System.out.println(s2.equals(s3));//true, different obj, same visible text
+		System.out.println(str3.equals(str4));//true, different obj, same visible text
 
-		System.out.println(s1 == s4);//false, case sensitive
+		System.out.println(str1 == s4);//false, case sensitive
 		
-		System.out.println(s1.equals(s4)); //false, case sensitive
+		System.out.println(str1.equals(s4)); //false, case sensitive
 
-		System.out.println(s1.equalsIgnoreCase(s4));//true, ignores case sensitivity
+		System.out.println(str1.equalsIgnoreCase(s4));//true, ignores case sensitivity
 
 		System.out.println("=============================");
 
-		String str1 = "abc";
-		String str2 = "abc";
+		String str5 = "abc";
+		String str6 = "abc";
 
-		System.out.println("str1==str2 is :" + str1 == str2); //false, st1==str2 :str1 == st2
+		System.out.println("str1==str2 is :" + str5 == str6); //false, st1==str2 :str1 == st2
 
 		System.out.println("=============================");
 		String names = "jim ";
@@ -59,7 +59,7 @@ public class StringExample1 {
 
 		System.out.println("-----------------------------------");
 
-		String s5 = "EU batch 7";
+		String s5 = "EU batch 8";
 		s5.toUpperCase(); //EU BATCH 7
 
 		System.out.println(s5); //EU batch 7

@@ -1,4 +1,4 @@
-package groupStudies.EU8_Groups.firstWeek;
+package groupStudies.EU8_Groups.package1;
 
 public class ArithmaticOp {
     public static void main(String[] args) {

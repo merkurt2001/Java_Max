@@ -9,12 +9,12 @@ public class MysteryTouch {
 		String eye = "eyes and ears";
 		String ear = "eye";
 
-		touch(ear, elbow); // touch you eye to your head
-		touch(elbow, ear); // touch you head to your eye
-		touch(head, "elbow"); // touch you shoulder to your elbow
-		touch(eye, eye); // touch you eyes an ears to your eyes an ears
-		touch(knees, "Toes"); // touch you toes to your Toes
-		touch(head, "knees " + knees); // touch you shoulders to your knees toes
+		touch(ear, elbow);
+		touch(elbow, ear);
+		touch(head, "elbow");
+		touch(eye, eye);
+		touch(knees, "Toes");
+		touch(head, "knees " + knees);
 	}
 
 	public static void touch(String elbow, String ear) {

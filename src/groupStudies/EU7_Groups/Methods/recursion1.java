@@ -1,4 +1,4 @@
-package groupStudies.EU6_Groups.package4;
+package groupStudies.EU7_Groups.Methods;
 
 public class recursion1 {
 

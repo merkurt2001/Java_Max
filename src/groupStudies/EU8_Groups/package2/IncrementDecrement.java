@@ -1,4 +1,4 @@
-package groupStudies.EU8_Groups.SecondWeek;
+package groupStudies.EU8_Groups.package2;
 
 public class IncrementDecrement {
 

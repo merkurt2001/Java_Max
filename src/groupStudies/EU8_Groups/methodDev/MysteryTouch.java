@@ -1,4 +1,4 @@
-package groupStudies.EU6_Groups.package2;
+package groupStudies.EU8_Groups.methodDev;
 
 public class MysteryTouch {
 
@@ -9,16 +9,16 @@ public class MysteryTouch {
 		String eye = "eyes and ears";
 		String ear = "eye";
 
-		touch(ear, elbow);  // touch you eye to your head
+		touch(ear, elbow); // touch you eye to your head
 		touch(elbow, ear); // touch you head to your eye
-		touch(head, "bani"); // touch you shoulders to your bani
-		touch(eye, eye);   // touch you eyes an ears to your eyes an ears
-		touch(knees, "Toes"); // touch you toes and Toes
-		touch(head, "knees " + knees); //touch you shoulder to your knees toes
+		touch(head, "elbow"); //touch you shoulders to your elbow
+		touch(eye, eye); // touch you eyes and ears to your eyes and ears
+		touch(knees, "Toes"); //touch you toes to your Toes
+		touch(head, "knees " + knees); // touch you shoulders to your knees toes
 	}
+
 	public static void touch(String elbow, String ear) {
 		System.out.println("touch you " + elbow + " to your " + ear);
-		
 
 	}
 
