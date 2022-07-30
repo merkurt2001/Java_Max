@@ -2,31 +2,28 @@ package groupStudies.GroupStudies.Methods;
 
 public class MethodBox {
 
-	public static void main(String[] args) {
+    public static void main(String[] args) {
 
-		System.out.println(drawBox(3) + " boxes produced");
+        System.out.println(drawBox(25));
 
-	}
 
-	public static int drawBox(int num) {
-		for (int i = 0; i < num; i++) {
-			System.out.println("+-----+");
-			System.out.println("|     |");
-			System.out.println("|     |");
-			System.out.println("|     |");
-			System.out.println("+-----+");
-			System.out.println();
-		}
-		return num;
+    }
 
-	}
+    public static String drawBox(int number) {
 
-	public static void drawBox() {
-		System.out.println("+-----+");
-		System.out.println("|     |");
-		System.out.println("|     |");
-		System.out.println("|     |");
-		System.out.println("+-----+");
+        for (int i = 0; i < number; i++) {
+            System.out.println("+-----+");
+            System.out.println("|     |");
+            System.out.println("|     |");
+            System.out.println("|     |");
+            System.out.println("+-----+");
 
-	}
+        }
+
+        return number + " Boxes produced";
+
+
+    }
+
+
 }
