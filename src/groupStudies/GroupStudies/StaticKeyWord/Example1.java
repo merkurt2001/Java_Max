@@ -6,6 +6,7 @@ class X {
 }
 
 public class Example1 {
+
     public static void main(String[] args) {
         X x1 = new X();
         X x2 = new X();
