@@ -7,9 +7,12 @@ public class printNextThree {
 	public static void main(String[] args) {
 
 		/*
-		 * Ask user to enter a positive number. Print the next three numbers. First
-		 * write code and get the answer, then create a printNext() method and put all
-		 * your code inside...
+		 * Ask user to enter a positive number. Print the next three numbers. Please create a method named
+		 * printNextThree()
+		 * input = 10
+		 * output = 11, 12, 13
+		 * input = -1
+		 * outpur =  Please enter a positive number
 		 */
 		printNextThree();
 
