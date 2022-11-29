@@ -33,7 +33,7 @@ public class ContinueAndBreakExample {
 				}
 				
 				if(i == 1) {
-					break outer;
+					break ;
 				}
 				
 				System.out.println(i + " " + j);
