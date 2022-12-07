@@ -9,6 +9,7 @@ public class Arrays17 {
         arr[1] = arr[0];
         System.out.println(Arrays.toString(arr[1]));
         System.out.println(Arrays.toString(arr[0]));
+        System.out.println("Arrays.deepToString(arr) = " + Arrays.deepToString(arr));
 
     }
 }

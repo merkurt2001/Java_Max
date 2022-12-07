@@ -4,9 +4,9 @@ public class Arrays18 {
     public static void main(String[] args) {
 
         int [][] arr = new int[2][];
-        int [][] arr1 = new int[][]{{1,2,3},{3,4}};
-        //double [][] arr2 = new double[2][]{{1,2},{3,4}};
-        double [][] arr3 = {{1,2},{3,4}};
+        double [][] arr1 = new double[][]{{1,2,3},{3,4}};
+       // long [][] arr2 = new long[2][]{{1,2},{3,4}};
+        int [][] arr3 = {{1,2},{3,4}};
 
 
         for (int i = 0; i < 2; i++) {
