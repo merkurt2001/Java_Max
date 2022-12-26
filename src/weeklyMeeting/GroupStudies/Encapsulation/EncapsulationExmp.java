@@ -1,4 +1,4 @@
-package weeklyMeeting.GroupStudies.package8;
+package weeklyMeeting.GroupStudies.Encapsulation;
 
 public class EncapsulationExmp {
 

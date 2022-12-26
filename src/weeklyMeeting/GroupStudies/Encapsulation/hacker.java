@@ -1,4 +1,6 @@
-package weeklyMeeting.GroupStudies.package8;
+package weeklyMeeting.GroupStudies.Encapsulation;
+
+import weeklyMeeting.GroupStudies.Encapsulation.EncapsulationExmp;
 
 public class hacker {
     public static void main(String[] args) {

@@ -63,6 +63,9 @@ public class ArrayListReview {
         }
         System.out.println(languages);
 
+        System.out.println(languages.remove(2)); // gives the removed element name
+        System.out.println(languages.remove("arabic")); //returns true or false
+
 
         //containsAll
         ArrayList<String> list = new ArrayList<>();
