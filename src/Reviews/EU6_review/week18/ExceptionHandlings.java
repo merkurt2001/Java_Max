@@ -12,6 +12,7 @@ public class ExceptionHandlings {
 			System.out.println(arr[2000]); // unchecked exception
 		}catch(RuntimeException e) {
 			e.printStackTrace();
+			System.out.println("inside catch");
 		}
 		
 		

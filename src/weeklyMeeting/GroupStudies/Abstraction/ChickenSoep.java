@@ -1,13 +1,8 @@
 package weeklyMeeting.GroupStudies.Abstraction;
 
-public class Pizza extends Food {
-
+public class ChickenSoep extends Soep {
     @Override
     public void eat() {
 
-    }
-
-    public Pizza(String name) {
-        super(name);
     }
 }

@@ -12,6 +12,8 @@ public class divideWithoutOpetator {
             System.out.println("Invalid Number");
             return;
         }
+
+
         System.out.print(num1 + " devid by " + num2 + " is: ");
         int count = 0;
         while (num1 >= num2) {

@@ -1,0 +1,94 @@
+Abstraction Class Notes
+
+
+Abstraction: is concentrating on essential/important things and not worrying about details.
+
+			 is concentrating on name of the action/behaviour, without thinking about implementation
+
+
+Abstraction can be done in 2 ways: Abstract classes, Interface
+
+
+Abstraction helps with "organizing the code", "reusing the code", "less duplicate code",
+
+
+Can we instantiate abstract class?
+
+
+What is Abstract Method?
+	- is a method without body/implementation. Can be placed in abstract class or interface
+
+
+Where do you add implementation?
+	- Is added in first concrete class
+	- While adding implementation, all overriding rules should be followed.
+
+
+
+Can we add non-abstract method in abstract class?
+	- Yes we can. Abstract class can have both abstract method and non-abstract method
+
+
+Is it mendatory for abstract class to have abstract method?
+	- No it is not. Abstract class can have 0 abstract method.
+
+
+Can we add constructor in abstract class?
+	- Yes we can.
+
+If we can not instantiate abstract class, how we can call the constructor?
+	- The constructor of abstract class can be called from a subclass using super keyword.
+
+
+Can you add instance or static variables into abstract class?
+	- Yes we can have instance variables in abstract class
+
+	- Variables can not be abstract
+		abstract int id; //Error
+
+Can you add instance or static init block?
+	- Yes we can
+
+
+Can an abstract class extend another abstract class?
+	- Yes it can
+
+
+Can an abstract class extend another non-abstract class?
+	- Yes it can
+
+
+Can a class extends multiple abstract classes?
+    - No it can not
+
+
+Can we add static method into abstract class?
+	- yes we can
+
+
+
+Can a method be abstract and final in abstract class?
+	- No it can not
+
+
+Can abstract method be protected, private, and default?
+	- private: no
+	- default: yes
+	- protected: yes
+
+
+	Can an abstract method be static?
+-> No, abstract methods are meant to overridden, and only the instance
+methods can be override
+
+
+Can a method be abstract and final?
+-> No, we cannot have abstract final methods. Final methods cannot be
+overridden, and abstract methods must be implemented
+
+
+
+When an abstract class extends another abstract class, does it require to override/implement abstract methods from parent?
+	- No it does not require
+	- First concrete sub class is required to implement all abstract methods
+
