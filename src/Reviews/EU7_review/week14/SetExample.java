@@ -11,13 +11,11 @@ public class SetExample {
 		System.out.println(set); // [null, 1, 2, 99, 100, 8]
 		
 // LinkedHashSet: keeps the insertion order, takes null, no duplicates
-		Set<Integer> setTwo = new LinkedHashSet<>();
-		setTwo.addAll(Arrays.asList(100,1,2,8,99,100,null,null));
+		Set<Integer> setTwo = new LinkedHashSet<>(Arrays.asList(100, 1, 2, 8, 99, 100, null, null));
 		System.out.println(setTwo);// [100, 1, 2, 8, 99, null]
 		
 // Treeset : does not accept null, sorts the list, no duplicates		
-		Set<Integer> setThree = new TreeSet<>();
-		setThree.addAll(Arrays.asList(100,1,2,8,99,100));
+		Set<Integer> setThree = new TreeSet<>(Arrays.asList(100, 1, 2, 8, 99, 100));
 		System.out.println(setThree);
 		
 // if I want to use .sort method with  HashSet, can I use it?
