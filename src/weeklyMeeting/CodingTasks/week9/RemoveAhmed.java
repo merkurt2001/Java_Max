@@ -32,6 +32,7 @@ Write a java operation to remove all the names named Ahmed
             if(it.next().equals("Ahmed"))
                 it.remove();
         }
+
         System.out.println( names5 );
     }
 }
