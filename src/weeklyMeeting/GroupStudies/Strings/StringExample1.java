@@ -12,51 +12,56 @@ public class StringExample1 {
 		String str2 = "Java";
 		String str3 = new String("Java");
 		String str4 = new String("Java");
+		String str5 = "java";
 
-		String s4 = "java";
+		System.out.println(str1 == str2); //true
+		System.out.println(str1 == str3); //false, different memory location
+		System.out.println(str1.equals(str3)); //true, different obj but same visible text
+		System.out.println(str3.equals(str4)); //true, different obj but same visible text
+		System.out.println(str1 == str5); //false, case sensitive
+		System.out.println(str1.equals(str5));//false, case sensitive
+		System.out.println(str1.equalsIgnoreCase(str5));//true, ignores case sensitivity
 
-		System.out.println(str1 == str3); //false, different memory locatin
-		
-		System.out.println(str1==str2); //true
-		
-		System.out.println(str1.equals(str3)); //true, different obj, same visible text
+		System.out.println("======================================");
+		//what is mutability
 
-		System.out.println(str3.equals(str4));//true, different obj, same visible text
+		StringBuilder sb = new StringBuilder("hello");
+		System.out.println(System.identityHashCode(sb));
+		sb.append(" world"); //the same object
+		System.out.println(System.identityHashCode(sb));
+		System.out.println(sb);
 
-		System.out.println(str1 == s4);//false, case sensitive
-		
-		System.out.println(str1.equals(s4)); //false, case sensitive
+		String sb1 = "hello";
+		System.out.println(System.identityHashCode(sb1));
+		sb1 = sb1.concat(" world"); //actually we are creating a new object here
+		System.out.println(sb1);
+		System.out.println(System.identityHashCode(sb1));
 
-		System.out.println(str1.equalsIgnoreCase(s4));//true, ignores case sensitivity
 
-		System.out.println("=============================");
-
-		String str5 = "abc";
+		System.out.println("======================================");
 		String str6 = "abc";
+		String str7 = "abc";
 
-		System.out.println("str1==str2 is :" + str5 == str6); //false, st1==str2 :str1 == st2
+		System.out.println("the result is : " + str6 == str7); //false, string concatenation creates a new string
 
-		System.out.println("=============================");
+		System.out.println("======================================");
+
 		String names = "jim ";
 		String greeting = "hello " + names;
 		greeting += "good to see you";
-		System.out.println(greeting); //hello jim good to see you
+		System.out.println(greeting);
 
 		System.out.println("=============================");
 
-		// Immutability of string
-//		concat()-- combines specified string at the end of the string.
 
-		String str = "Cydeo";
+		String schoolName = "CYDEO";
+		schoolName.concat(" SCHOOL");
 
-		str.concat(" School"); //Cydeo School
+		System.out.println(schoolName);
 
-		System.out.println(str); //Cydeo
+		schoolName = schoolName.concat(" School");
 
-		str = str.concat(" School"); 
-
-		System.out.println(str);//Cydeo School
-
+		System.out.println(schoolName);
 
 		System.out.println("=============================");
 
@@ -67,6 +72,7 @@ public class StringExample1 {
 		ta.replace('C', 'D');//
 		ta = ta + tb; //ABCC
 		System.out.println(ta); //ABCC
+
 
 	}
 

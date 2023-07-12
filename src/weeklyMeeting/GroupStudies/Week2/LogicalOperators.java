@@ -1,4 +1,4 @@
-package weeklyMeeting.GroupStudies.package2;
+package weeklyMeeting.GroupStudies.Week2;
 
 public class LogicalOperators {
     public static void main(String[] args) {
@@ -46,6 +46,7 @@ public class LogicalOperators {
         x = (y != 10) || (z=false);
 
         System.out.println(x);
+        System.out.println(z);
 
     }
 }

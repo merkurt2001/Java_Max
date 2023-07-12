@@ -1,4 +1,4 @@
-package weeklyMeeting.GroupStudies.package1;
+package weeklyMeeting.GroupStudies.Week1;
 
 public class First {
     public static void main(String[] args) {
@@ -43,6 +43,19 @@ public class First {
          * System.out.println("a multi-line style");
          */
         System.out.println("of comment.");
+
+
+        /*This is a test of your
+          knowledge of "quotes" used
+          in 'string literals.'
+
+          You're bound to "get it right"
+          if you read the section on
+          ''quotes.''*/
+
+        System.out.println("===============");
+
+        System.out.println("This is a test of your\nknowledge of \"quotes\" used\nin 'string literals.'\n\nYou're bound to \"get it right\"\nif you read the section on\n''quotes.''");
 
 
     }

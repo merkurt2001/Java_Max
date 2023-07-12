@@ -1,6 +1,6 @@
 package weeklyMeeting.GroupStudies.loops;
 
-public class forExample11 {
+public class doWhileExample3 {
 
     public static void main(String[] args) {
 

@@ -1,4 +1,4 @@
-package weeklyMeeting.GroupStudies.package1;
+package weeklyMeeting.GroupStudies.Week1;
 
 public class ArithmaticOp {
     public static void main(String[] args) {

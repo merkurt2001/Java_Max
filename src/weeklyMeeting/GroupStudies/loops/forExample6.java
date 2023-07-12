@@ -4,11 +4,10 @@ public class forExample6 {
 
     public static void main(String[] args) {
 
-        int count = 0;
-        do {
-            System.out.println("Welcome to Java");
-            count++;
-
-        } while (count <= 5);
+        for (int i = 1; i < 6; i++) {
+            if (i % 3 == 0)
+                continue;
+            System.out.print(i);
+        }
     }
 }

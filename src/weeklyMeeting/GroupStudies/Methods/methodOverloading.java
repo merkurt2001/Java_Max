@@ -2,34 +2,23 @@ package weeklyMeeting.GroupStudies.Methods;
 
 public class methodOverloading {
 
-	public static void main(String[] args) {
-		
-			calculate(100);
-			calculate(100,200);
-			calculate("bani",100.66);
-			calculate(100.66,"bani");
-		
+    public static void main(String[] args) {
 
-	}
+        int x = 10, y = 20;
 
-	public static void calculate(double d, String string) {
-		// TODO Auto-generated method stub
-		
-	}
+        //the argument "int y" is promoted to long data type
+        add(x, y);
+    }
 
-	private static void calculate(String string, double d) {
-		// TODO Auto-generated method stub
-		
-	}
+    public static void add(int x) {                   //method with one int
+        System.out.println(x);
+        System.out.println("integer");
+    }
 
-	public static void calculate(int i, int j) {
-		// TODO Auto-generated method stub
-		
-	}
+    public static void add(int x, long y) {           //method with int and long
+        System.out.println(x + y);
+        System.out.println("integer and long");
+    }
 
-	public static void calculate(int i) {
-		// TODO Auto-generated method stub
-		
-	}
 
 }

@@ -1,4 +1,4 @@
-package weeklyMeeting.GroupStudies.package2;
+package weeklyMeeting.GroupStudies.Week2;
 
 public class IncrementDecrement {
 
