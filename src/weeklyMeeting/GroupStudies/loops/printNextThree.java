@@ -12,7 +12,7 @@ public class printNextThree {
 		 * input = 10
 		 * output = 11, 12, 13
 		 * input = -1
-		 * outpur =  Please enter a positive number
+		 * output =  Please enter a positive number
 		 */
 		printNextThree();
 

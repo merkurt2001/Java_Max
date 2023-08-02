@@ -1,15 +1,10 @@
 package weeklyMeeting.GroupStudies.Arrays;
 
-public class IndexFinder {
+public class flagUsageWithArray {
 
 	public static void main(String[] args) {
 
-		/*
-		 * Given an array of integers, write a function to return the index of an item
-		 * in the array, where the sum of all items on its left is equal to the sum of
-		 * the ones on the right. For example : Given [4, 9, 1, 3, 6, 4] your function
-		 * should return 2 because the item at index 2 is 1, and 4+9 =3+6+4
-		 */
+
 		char[] letter = { 'a', 'b', 'h', 'e', 'l', 'l', 'o', ' ', 's', 'b', 'w', 'o', 'r', 'l', 'd', 's', 'b', '!' };
 		System.out.println(getBetween(letter, 'b', 's'));
 	}

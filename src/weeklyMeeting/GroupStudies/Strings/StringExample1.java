@@ -23,6 +23,18 @@ public class StringExample1 {
 		System.out.println(str1.equalsIgnoreCase(str5));//true, ignores case sensitivity
 
 		System.out.println("======================================");
+
+
+
+
+		String a="ab";
+		String b="sd";
+		String d=a+b;
+		String c="absd";
+		System.out.println(c==d); //false since d is created by string manipulation, not with
+		// string literal so they are not the same obj
+
+		System.out.println("======================================");
 		//what is mutability
 
 		StringBuilder sb = new StringBuilder("hello");

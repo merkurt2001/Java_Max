@@ -1,6 +1,8 @@
-package weeklyMeeting.GroupStudies.BulkOperators;
+package weeklyMeeting.GroupStudies.ArrayList;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
 
 public class ArrayListReview {
     public static void main(String[] args) {
@@ -61,26 +63,63 @@ public class ArrayListReview {
                 i--; // do not forget to decrease the iterator when the condition is true
             }
         }
+
+        //second approach to remove element from ArrayList
+
+        languages.removeAll(Arrays.asList("turkish"));
+        //this method is used to remove all the elements from a list that are contained in the specific collection
+
+
+        //third approach to remove an element from ArrayList
+
+        languages.removeIf(each -> each.equals("turkish"));
+        //this method is used to remove all of the elements of this collection that satisfy the given predicate.
         System.out.println(languages);
 
-        System.out.println(languages.remove(2)); // gives the removed element name
-        System.out.println(languages.remove("arabic")); //returns true or false
+        System.out.println(languages.remove(1));
+        System.out.println(languages.remove("arabic"));
 
 
-        //containsAll
-        ArrayList<String> list = new ArrayList<>();
-        languages.add("english");
-        languages.add("arabic");
+        ArrayList<String> newList = new ArrayList<>(Arrays.asList("chinese", "dutch"));
+        System.out.println(newList);
 
-        if (languages.containsAll(list)) {
-            System.out.println("languages has all lis");
+        if (languages.containsAll(newList)) {
+            System.out.println("languages has all list");
         } else {
             System.out.println("some values are missing");
         }
 
-        //removes all the elements from ArrayList and check without printing out
+        System.out.println(languages);
+
+
+        //how to add one list to another
+
+
+        languages.addAll(newList);
+        //this method is used to append all of the elements in the specified collection to the end of the list.
+        System.out.println(languages);
+
+
+        //replace all chinese with russian
+
+        Collections.replaceAll(languages, "chinese", "russian");//
+        // this method is used to replace each element of this list with the result of appliying the operator that element
+
+        System.out.println(languages);
+
+
+        //retain all the elements that languages and newList has
+
+        languages.retainAll(newList);
+        //this method is used to remove it’s elements from a list that are not contained in the specific collection
+        System.out.println(languages);
+
+
         languages.clear();
+        System.out.println(languages);
+
         System.out.println(languages.isEmpty());
+
 
     }
 }

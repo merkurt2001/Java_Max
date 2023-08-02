@@ -1,4 +1,4 @@
-package weeklyMeeting.GroupStudies.BulkOperators;
+package weeklyMeeting.GroupStudies.ArrayList;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -48,8 +48,8 @@ public class ArrayListPractice2 {
 //
 //        }
 
-//        combined.addAll(wordList1);
-//        combined.addAll(wordList2);
+        combined.addAll(wordList1);
+        combined.addAll(wordList2);
         return combined;
     }
 }

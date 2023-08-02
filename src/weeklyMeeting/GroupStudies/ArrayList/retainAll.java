@@ -1,4 +1,4 @@
-package weeklyMeeting.GroupStudies.BulkOperators;
+package weeklyMeeting.GroupStudies.ArrayList;
 
 import java.util.ArrayList;
 

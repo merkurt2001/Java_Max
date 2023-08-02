@@ -8,6 +8,7 @@ public class Arrays9 {
         for (int e : data) {
             if (e != key) {
                 continue;
+//                count++;  unreachable statement
             }
         }
         System.out.println(count + " Found");

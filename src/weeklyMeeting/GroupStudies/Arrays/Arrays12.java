@@ -4,8 +4,8 @@ public class Arrays12 {
 
     public static void main(String[] args) {
 
-        int array1 [] = {1,2,3};
-        int array2 [] = new int[5];
+        int[] array1 = {1,2,3};
+        int[] array2 = new int[5];
 
         array2 = array1;
 
@@ -16,7 +16,7 @@ public class Arrays12 {
 
         System.out.println();
 
-        int array3 [] = new int[3];
+        int[] array3 = new int[3];
 
         array3 = array2;
 
