@@ -58,5 +58,19 @@ public class First {
         System.out.println("This is a test of your\nknowledge of \"quotes\" used\nin 'string literals.'\n\nYou're bound to \"get it right\"\nif you read the section on\n''quotes.''");
 
 
+        boolean b1, b2;
+        String s1 = "1", s2;
+//        double d1, double d2;
+        int i1;
+        int i2;
+//        int i3; i4;
+        char i5 = 'a', i6 = 25;
+//        byte i7 =128, i8 = -128; --> out of range of byte
+        String i9 = null, i_10 = "";
+
+
+        System.out.println("====================");
+
+
     }
 }

@@ -31,12 +31,12 @@ public class PrimitiveTypeCastingPractice {
 
         long lll= 4455664555L;
         int iii= (int) lll;
-        System.out.println(iii);
+        System.out.println(iii);//160697259
         double d1=12.05;
         int i4= (int) d1;
-        System.out.println(i4);
-        System.out.println(12/3+12.06/3);
-        System.out.println(12/3+(int)(12.06/3));
+        System.out.println(i4);//12
+        System.out.println(12/3+12.06/3);//8.02
+        System.out.println(12/3+(int)(12.06/3));//8
 
 
     }
