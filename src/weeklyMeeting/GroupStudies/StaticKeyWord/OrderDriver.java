@@ -2,16 +2,17 @@ package weeklyMeeting.GroupStudies.StaticKeyWord;
 
 public class OrderDriver {
     public static void main(String[] args) {
-        System.out.print(Order.result + " ");
-        System.out.print(Order.result + " ");
         new Order();
         new Order();
-        System.out.print(Order.result + " ");
+        System.out.print(Order.result + " ");//ucrcr
+        System.out.print(Order.result + " ");//ucrcr
+
+        System.out.print(Order.result + " ");//ucrcr
     }
 }
 
 class Order {
-    static String result = "";
+    static String result = ""; //ucrcr
 
     {
         result += "c";

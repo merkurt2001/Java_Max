@@ -17,6 +17,6 @@ public class Example1 {
         x2.i = 5;
         x2.j = 6;
 
-        System.out.println(x1.i + " " + x1.j + " " + x2.i + " " + x2.j);
+        System.out.println(x1.i + " " + x1.j + " " + x2.i + " " + x2.j); //5 4 5 6
     }
 }
