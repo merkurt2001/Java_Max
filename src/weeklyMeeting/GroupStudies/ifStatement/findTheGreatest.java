@@ -1,4 +1,4 @@
-package weeklyMeeting.GroupStudies.Week2;
+package weeklyMeeting.GroupStudies.ifStatement;
 
 import java.util.Scanner;
 

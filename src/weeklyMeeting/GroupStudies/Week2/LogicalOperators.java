@@ -30,7 +30,7 @@ public class LogicalOperators {
 //        System.out.println((x1 > 4) & (++x1 == 4));   //false
 //        System.out.println(x1);  //2
 //============================================
-
+//
 //        int x2 = 1;
 //
 //        System.out.println((x2 > 0) || (++x2 == 4));   //true

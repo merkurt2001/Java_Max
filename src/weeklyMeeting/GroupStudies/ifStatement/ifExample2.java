@@ -1,4 +1,4 @@
-package weeklyMeeting.GroupStudies.Week2;
+package weeklyMeeting.GroupStudies.ifStatement;
 
 public class ifExample2 {
 
