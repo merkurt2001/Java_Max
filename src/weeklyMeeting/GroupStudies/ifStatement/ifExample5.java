@@ -5,9 +5,9 @@ public class ifExample5 {
         String state = "on";
 
 //        if(state = "on")
-//            System.out.println("On");
+            System.out.println("On");
 //        else
-//            System.out.println("Off");
+            System.out.println("Off");
 
 
     }
