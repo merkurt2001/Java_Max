@@ -13,8 +13,10 @@ public class weird2 {
         } catch (Exception e1) {
             System.out.println("Invalid calculation");
 
+//        }finally {
+//            answer =1;
         }
 
-        //System.out.println("Answer = " + answer);
+//        System.out.println("Answer = " + answer);
     }
 }

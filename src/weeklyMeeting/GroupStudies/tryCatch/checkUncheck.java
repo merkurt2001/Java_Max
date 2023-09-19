@@ -14,12 +14,12 @@ public class checkUncheck {
         //Occurs during RUNTIME so hard to detect
         //Classes which inherits “RuntimeException” are unchecked exceptions
 
-        System.out.println(10/0);//ArithemticException
+        System.out.println(10 / 0);//ArithemticException
 
         String str = null;
         System.out.println(str.length());//NullPointerException
 
-        int[] array = {0,1,2};
+        int[] array = {0, 1, 2};
         System.out.println(array[10]); //ArrayIndexOutOfBoundException
 
         String str1 = "hello";
@@ -36,16 +36,8 @@ public class checkUncheck {
         //Thread.sleep(3000); //exception occurs here and code will note compile
 
         //=============================================
-        //Errors indicates a very serious events..
-        //We may handle some errors using try-catch blocks but not recommended
-
-        recursiveMethod();//error occurs here: StackOverflowError
 
 
 
-    }
-
-    private static void recursiveMethod() {
-        recursiveMethod();
     }
 }
