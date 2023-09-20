@@ -11,7 +11,7 @@ public class forExample2 {
             System.out.println(ch);
             if (ch=='B'){
                 break;
-            }
+            }//AB
             
         }
         
