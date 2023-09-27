@@ -1,4 +1,4 @@
-package weeklyMeeting.GroupStudies.package8;
+package weeklyMeeting.GroupStudies.Collections;
 
 import java.util.ArrayList;
 import java.util.Arrays;

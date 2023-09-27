@@ -1,4 +1,4 @@
-package weeklyMeeting.GroupStudies.Week1;
+package weeklyMeeting.GroupStudies.Variables;
 
 public class TypeCasting {
     public static void main(String[] args) {

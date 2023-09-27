@@ -1,4 +1,4 @@
-package weeklyMeeting.GroupStudies.Week2;
+package weeklyMeeting.GroupStudies.ConcatanationIncDec;
 
 public class LogicalOperators {
     public static void main(String[] args) {

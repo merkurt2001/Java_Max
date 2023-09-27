@@ -1,4 +1,4 @@
-package weeklyMeeting.GroupStudies.Week1;
+package weeklyMeeting.GroupStudies.ConcatanationIncDec;
 
 public class Concatanation {
     public static void main(String[] args) {
