@@ -7,6 +7,7 @@ import java.util.Collections;
 public class ArrayListReview {
     public static void main(String[] args) {
         //Creating an ArrayList
+        //Creating an ArrayList
         ArrayList<String> languages = new ArrayList<>();
 
         //Assigning values to arrayList
@@ -30,7 +31,7 @@ public class ArrayListReview {
         //How can I get the lenght of the ArrayList
         System.out.println("to get length of ArrayList = " + languages.size());
 
-        //inserts element to ArrayList
+        //inserts new element (russian) to ArrayList
         languages.add("russian");
         System.out.println(languages);
 
@@ -38,11 +39,11 @@ public class ArrayListReview {
         System.out.println("first element = " + languages.get(0));
 
 
-        //add index 0 "ruby"
+        //add index 0 to "ruby"
         languages.add(0, "ruby");
         System.out.println(languages);
 
-        //set index 0 "python"
+        //set index 0 to "python"
         languages.set(0, "python");
         System.out.println(languages);
 
@@ -50,7 +51,7 @@ public class ArrayListReview {
         int index = languages.indexOf("arabic");
         System.out.println(index);
 
-        //how to check if englis is the second position
+        //how to check if english is the second position
         System.out.println(languages.get(2).equals("english"));
         System.out.println(languages.indexOf("english") == 2);
 
@@ -76,7 +77,10 @@ public class ArrayListReview {
         //this method is used to remove all of the elements of this collection that satisfy the given predicate.
         System.out.println(languages);
 
+        //removing element by using index number
         System.out.println(languages.remove(1));
+
+        //removing element by using object
         System.out.println(languages.remove("arabic"));
 
 
@@ -97,7 +101,7 @@ public class ArrayListReview {
 
         languages.addAll(newList);
         //this method is used to append all of the elements in the specified collection to the end of the list.
-        System.out.println(languages);
+        System.out.println("after addAll " +languages);
 
 
         //replace all chinese with russian
@@ -105,14 +109,14 @@ public class ArrayListReview {
         Collections.replaceAll(languages, "chinese", "russian");//
         // this method is used to replace each element of this list with the result of appliying the operator that element
 
-        System.out.println(languages);
+        System.out.println("after replaceAll " +languages);
 
 
         //retain all the elements that languages and newList has
 
-        languages.retainAll(newList);
+        languages.retainAll( newList);
         //this method is used to remove it’s elements from a list that are not contained in the specific collection
-        System.out.println(languages);
+        System.out.println("after retainAll " + languages);
 
 
         languages.clear();

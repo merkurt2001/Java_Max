@@ -24,6 +24,7 @@ public class divisionWithoutOperator {
         }
         System.out.println(count+" and remainder is "+num1);
     }
-
+/*This simulates the process of long division, where you repeatedly subtract the divisor (num2)
+from the dividend (num1) until the dividend becomes less than the divisor.*/
 
 }

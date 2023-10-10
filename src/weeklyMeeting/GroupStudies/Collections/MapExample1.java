@@ -54,6 +54,8 @@ public class MapExample1 {
 
 
 
+
+
         for (Map.Entry<String, String> entry : firstPageKeysValues.entrySet()) {
             String key = entry.getKey();
             String value1 = entry.getValue();
@@ -67,6 +69,11 @@ public class MapExample1 {
                 System.out.println("Value missing in secondPageKeysValues for key '" + key + "'");
             }
         }
+
+        List<Map<String, String>> listOfMap = new LinkedList<>();
+        listOfMap.add(firstPageKeysValues);
+        System.out.println(firstPageKeysValues);
+        System.out.println(listOfMap);
 
 
     }

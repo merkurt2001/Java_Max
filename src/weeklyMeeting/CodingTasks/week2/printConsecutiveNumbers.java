@@ -28,7 +28,7 @@ public class printConsecutiveNumbers {
         Codility
         17
 */
-      solution(15);
+      solution(30);
 
     }
 
@@ -36,7 +36,7 @@ public class printConsecutiveNumbers {
     public static void solution(int N) {
         String result = "";
         for (int i = 1; i <= N; i++) {
-            if (i % 2 == 0 && i % 3 == 0 && i % 5 == 0)
+            if (i % 2 == 0 & i % 3 == 0 & i % 5 == 0)
                 result += "CodilityTestCoders\n";
             else if (i % 2 == 0 && i % 3 == 0)
                 result += "CodilityTest\n";

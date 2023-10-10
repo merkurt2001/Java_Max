@@ -14,7 +14,6 @@ public class Arrays15 {
                 break;
             System.out.println(country);
             i++;
-
         }
     }
 }

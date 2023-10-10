@@ -6,7 +6,7 @@ import java.util.Collections;
 
 public class ArrayListReview2 {
     public static void main(String[] args) {
-        ArrayList<Integer> nums = new ArrayList<>(Arrays.asList(4, 1, 44, 1, 3, 5, 1, 10, 100, 55));
+        ArrayList<Integer> nums = new ArrayList<>(Arrays.asList(4, 1, 2, 1, 2, 5, 5, 10, 99, 2));
 
         System.out.println(nums);
 
@@ -17,8 +17,6 @@ public class ArrayListReview2 {
         nums.remove(n1);
         System.out.println(nums);
 
-
-        nums.remove(new Integer(44));//removes the specified element from the list
 
         System.out.println(nums);
 
@@ -42,5 +40,12 @@ public class ArrayListReview2 {
 
         int frequency = Collections.frequency(nums, 1);
         System.out.println(frequency);
+
+        System.out.println(nums);
+
+        //remove all the element that are not unique
+
+        nums.removeIf(each -> Collections.frequency(nums, each) > 1);
+        System.out.println(nums);
     }
 }

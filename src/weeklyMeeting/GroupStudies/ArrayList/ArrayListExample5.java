@@ -15,7 +15,7 @@ public class ArrayListExample5 {
             if (each % 2 != 0){
                 continue;
             }
-            System.out.print(each + " ");
+            System.out.print(each + " ");//2 4 6
         }
     }
 }
